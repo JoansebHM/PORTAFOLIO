@@ -2,12 +2,17 @@
 
 @import "tailwindcss";
 
+* {
+  box-sizing: border-box;
+}
+
 @layer base {
   :root {
     --color-primary: #ffffff;
-    --color-primary-dark: #ffffff;
+    --color-secondary: #d0a7f2;
+    --color-tertiary: #924dbf;
 
-    --color-background: #211832;
+    --color-background: #10061f;
   }
   html {
     font-family: "Hanken Grotesk", sans-serif;
@@ -23,7 +28,30 @@
   .text-primary {
     color: var(--color-primary);
   }
+  .text-secondary {
+    color: var(--color-secondary);
+  }
+  .text-tertiary {
+    color: var(--color-tertiary);
+  }
   .text-primary-dark {
     color: var(--color-primary-dark);
   }
+  .bg-color-background {
+    background-color: var(--color-background);
+  }
+  .bg-background {
+    background-color: var(--color-background);
+  }
+
+  .hover\:text-secondary:hover {
+    color: var(--color-secondary);
+  }
+  .hover\:text-tertiary:hover {
+    color: var(--color-tertiary);
+  }
+}
+
+button {
+  @apply cursor-pointer;
 }
