@@ -45,7 +45,7 @@ function ProfileCard() {
       <div className="absolute inset-0 bg-black/40 backdrop-blur-[2px] -z-10 pointer-events-none" />
 
       {/* Profile Image */}
-      <div className="w-24 h-24 sm:w-28 sm:h-28 lg:w-48 lg:h-48 rounded-2xl overflow-hidden shadow-2xl border-2 border-white/10">
+      <div className="w-32 h-32 sm:w-36 sm:h-36 lg:w-48 lg:h-48 rounded-2xl overflow-hidden shadow-2xl border-2 border-white/10">
         <img
           src={profileImage}
           alt="Profile"
@@ -54,10 +54,10 @@ function ProfileCard() {
       </div>
 
       <div className="flex flex-col items-center text-center gap-2 relative z-10">
-        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black tracking-tighter text-white drop-shadow-md">
+        <h2 className="text-3xl lg:text-4xl font-black tracking-tighter text-white drop-shadow-md">
           Sebastian Herrera
         </h2>
-        <span className="text-purple-200 text-sm sm:text-base font-medium opacity-90">
+        <span className="text-purple-200 text-sm lg:text-base font-medium opacity-90">
           {content.profile.role}
         </span>
       </div>

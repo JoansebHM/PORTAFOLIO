@@ -5,7 +5,7 @@ import Presentation from "./Presentation";
 import RecentProjects from "./RecentProjects";
 import Experience from "./Experience";
 import TechSkills from "./TechSkills";
-import Contact from "../components/Contact";
+import Contact from "./Contact";
 
 function Hero() {
   const containerRef = useRef(null);

@@ -88,10 +88,13 @@ function Navbar() {
               {language}
             </button>
 
-            <div className="flex items-center gap-2 text-primary text-lg cursor-pointer hover:text-tertiary transition-colors"
+            <div
+              className="flex items-center gap-2 text-primary text-lg cursor-pointer hover:text-tertiary transition-colors"
               onClick={handleDownloadCV}
             >
-              <span className="hidden xl:block">{content.navbar.downloadCV}</span>
+              <span className="hidden xl:block">
+                {content.navbar.downloadCV}
+              </span>
               <GoDownload />
             </div>
           </div>
@@ -157,11 +160,14 @@ function Navbar() {
               <li className="flex items-center gap-4 pt-4 border-t border-gray-800/50 mt-4">
                 <button
                   onClick={toggleLanguage}
-                  className="px-4 py-2 rounded-full font-medium transition-colors bg-primary text-background hover:bg-secondary"
+                  className="px-4 py-2 rounded-full font-medium transition-colors bg-primary text-black hover:bg-secondary"
                 >
                   {language}
                 </button>
-                <div className="flex items-center gap-2 text-primary cursor-pointer hover:text-tertiary transition-colors" onClick={handleDownloadCV}>
+                <div
+                  className="flex items-center gap-2 text-primary cursor-pointer hover:text-tertiary transition-colors"
+                  onClick={handleDownloadCV}
+                >
                   <span>{content.navbar.downloadCV}</span>
                   <GoDownload />
                 </div>
