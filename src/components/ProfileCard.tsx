@@ -35,7 +35,7 @@ function ProfileCard() {
           ],
         }}
         transition={{
-          duration: 10, // Aún más lento para máxima elegancia
+          duration: 10,
           repeat: Infinity,
           ease: "easeInOut", // Soft movement
         }}
