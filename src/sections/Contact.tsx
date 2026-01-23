@@ -5,7 +5,7 @@ function Contact() {
 
   return (
     <section>
-      <div className="text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-black -tracking-wider leading-[0.8] text-primary flex flex-col items-center md:items-start text-center md:text-left">
+      <div className="text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-black -tracking-wider leading-[0.8] text-primary flex flex-col items-center md:items-start text-center md:text-left">
         <span className="text-secondary">{content.contact.title1}</span>
         <span>{content.contact.title2}</span>
       </div>
