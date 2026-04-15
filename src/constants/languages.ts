@@ -17,7 +17,7 @@ export const LANGUAGES = {
             description: "Apasionado por crear experiencias de usuario intuitivas y atractivas. Especializado en transformar ideas en productos bellamente diseñados.",
         },
         experience: {
-            title1: "1.5 AÑOS DE",
+            title1: "+2 AÑOS DE",
             title2: "EXPERIENCIA",
             items: [
                 {
@@ -102,7 +102,7 @@ export const LANGUAGES = {
             description: "Passionate about creating intuitive and engaging user experiences. Specialize in transforming ideas into beautifully crafted products.",
         },
         experience: {
-            title1: "1.5 YEARS OF",
+            title1: "+2 YEARS OF",
             title2: "EXPERIENCE",
             items: [
                 {
