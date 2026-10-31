@@ -9,10 +9,10 @@
 @layer base {
   :root {
     --color-primary: #ffffff;
-    --color-secondary: #d0a7f2;
-    --color-tertiary: #924dbf;
+    --color-secondary: #a3a3a3;
+    --color-tertiary: #737373;
 
-    --color-background: #10061f;
+    --color-background: #0a0a0a;
   }
   html {
     font-family: "Hanken Grotesk", sans-serif;

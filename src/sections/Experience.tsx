@@ -34,7 +34,7 @@ const ExperienceCard = ({
   dates?: string;
 }) => {
   return (
-    <div className="group flex flex-col md:flex-row justify-between text-primary hover:bg-purple-200/10 p-6 md:p-10 rounded-lg hover:scale-102 transition-all duration-1000 cursor-pointer">
+    <div className="group flex flex-col md:flex-row justify-between text-primary hover:bg-white/5 p-6 md:p-10 rounded-lg hover:scale-102 transition-all duration-1000 cursor-pointer">
       <div className="flex flex-col gap-2 justify-center items-center md:items-start text-center md:text-left">
         <span className="text-2xl sm:text-3xl md:text-4xl font-black">{title}</span>
         <span className="text-sm sm:text-md text-gray-300">{description}</span>

@@ -1,4 +1,5 @@
 import byteHouseGif from "../assets/gifs/bytehouse_gif.gif";
+import kiraGif from "../assets/gifs/KIRA_gif.gif";
 import sirmedGif from "../assets/gifs/SIRMED_gif.gif";
 
 export const LANGUAGES = {
@@ -17,9 +18,15 @@ export const LANGUAGES = {
             description: "Apasionado por crear experiencias de usuario intuitivas y atractivas. Especializado en transformar ideas en productos bellamente diseñados.",
         },
         experience: {
-            title1: "+2 AÑOS DE",
+            title1: "+2.5 AÑOS DE",
             title2: "EXPERIENCIA",
             items: [
+                {
+                    id: "kira",
+                    title: "KIRA - Geovisor del Kratos Innovation Team (EAFIT)",
+                    description: "Desarrollo de KIRA, un geovisor web móvil para investigación y levantamiento de requisitos en salidas de campo del Kratos Innovation Team de EAFIT. Permite registrar puntos, zonas y elementos en el mapa, asignar zonas por salida, y adjuntar evidencias (fotos, audios y documentos), con React, TypeScript, MapLibre GL y Supabase con PostGIS, seguridad por roles (RLS) y pruebas end-to-end con Playwright.",
+                    dates: "OCT 2026 - PRESENTE"
+                },
                 {
                     id: "sirmed",
                     title: "SIRMED - Sistema de Información para la Gestión del Riesgo de Desastres de Medellín",
@@ -69,6 +76,14 @@ export const LANGUAGES = {
             usedTech: "Tecnologías Usadas",
             items: [
                 {
+                    id: "kira",
+                    title: "KIRA",
+                    description: "Geovisor del Kratos Innovation Team (EAFIT) para investigación y levantamiento de requisitos en salidas de campo",
+                    image: kiraGif,
+                    link: "https://kira-two-phi.vercel.app",
+                    technologies: ["React.js", "Vite", "Supabase", "PostgreSQL", "TanStack Query"]
+                },
+                {
                     id: "sirmed",
                     title: "SIRMED",
                     description: "Sistema de información para la gestión de riesgos y desastres Medellín",
@@ -102,9 +117,15 @@ export const LANGUAGES = {
             description: "Passionate about creating intuitive and engaging user experiences. Specialize in transforming ideas into beautifully crafted products.",
         },
         experience: {
-            title1: "+2 YEARS OF",
+            title1: "+2.5 YEARS OF",
             title2: "EXPERIENCE",
             items: [
+                {
+                    id: "kira",
+                    title: "KIRA - Geoviewer for EAFIT's Kratos Innovation Team",
+                    description: "Developed KIRA, a mobile-first web geoviewer used as a research and requirements-gathering tool during field trips for EAFIT's Kratos Innovation Team. It lets the team register points, zones and elements on a map, assign zones per trip, and attach evidence (photos, audio and documents), built with React, TypeScript, MapLibre GL and Supabase with PostGIS, role-based security (RLS) and Playwright end-to-end tests.",
+                    dates: "OCT 2026 - PRESENT"
+                },
                 {
                     id: "sirmed",
                     title: "SIRMED - Information System for Disaster Risk Management of Medellín",
@@ -153,6 +174,14 @@ export const LANGUAGES = {
             visit: "Visit Project",
             usedTech: "Used Technologies",
             items: [
+                {
+                    id: "kira",
+                    title: "KIRA",
+                    description: "Geoviewer for EAFIT's Kratos Innovation Team, a research and requirements-gathering tool for field trips",
+                    image: kiraGif,
+                    link: "https://kira-two-phi.vercel.app",
+                    technologies: ["React.js", "Vite", "Supabase", "PostgreSQL", "TanStack Query"]
+                },
                 {
                     id: "sirmed",
                     title: "SIRMED",

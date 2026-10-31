@@ -1,5 +1,5 @@
 import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
-import profileImage from "../assets/images/portfolio_image.jpeg";
+import profileImage from "../assets/images/portfolio_image.jpg";
 import { motion } from "framer-motion";
 import { useLanguage } from "../context/LanguageContext";
 
@@ -16,12 +16,12 @@ function ProfileCard() {
       <motion.div
         className="absolute inset-0 -z-10"
         style={{
-          backgroundColor: "#0F011A", // Color base profundo
+          backgroundColor: "#0a0a0a", // Color base profundo
           backgroundImage: `
-            radial-gradient(circle at 50% 50%, #3B0764 0%, transparent 50%),
-            radial-gradient(circle at 0% 0%, #581C87 0%, transparent 40%),
-            radial-gradient(circle at 100% 100%, #D8B4FE 0%, transparent 40%),
-            radial-gradient(circle at 80% 20%, #7C3AED 0%, transparent 30%)
+            radial-gradient(circle at 50% 50%, #262626 0%, transparent 50%),
+            radial-gradient(circle at 0% 0%, #171717 0%, transparent 40%),
+            radial-gradient(circle at 100% 100%, #525252 0%, transparent 40%),
+            radial-gradient(circle at 80% 20%, #404040 0%, transparent 30%)
           `,
           backgroundSize: "200% 200%",
         }}
@@ -57,7 +57,7 @@ function ProfileCard() {
         <h2 className="text-3xl lg:text-4xl font-black tracking-tighter text-white drop-shadow-md">
           Sebastian Herrera
         </h2>
-        <span className="text-purple-200 text-sm lg:text-base font-medium opacity-90">
+        <span className="text-gray-300 text-sm lg:text-base font-medium opacity-90">
           {content.profile.role}
         </span>
       </div>

@@ -47,7 +47,7 @@ const TechSkillCard = () => {
           Tailwind CSS
         </span>
       </div>
-      <div className="group flex items-center justify-center aspect-square p-3 md:p-4 border border-white/20 rounded-lg hover:border-purple-400 transition-all cursor-pointer relative">
+      <div className="group flex items-center justify-center aspect-square p-3 md:p-4 border border-white/20 rounded-lg hover:border-gray-400 transition-all cursor-pointer relative">
         <SiVite className="text-purple-400 text-3xl md:text-4xl lg:text-5xl" />
         <span className="absolute bottom-full mb-2 px-2 py-1 bg-gray-800 text-white text-xs md:text-sm rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
           Vite
@@ -89,7 +89,7 @@ const TechSkillCard = () => {
           Vercel
         </span>
       </div>
-      <div className="group flex items-center justify-center aspect-square p-4 border border-white/20 rounded-lg hover:border-pink-500 transition-all cursor-pointer relative">
+      <div className="group flex items-center justify-center aspect-square p-4 border border-white/20 rounded-lg hover:border-gray-400 transition-all cursor-pointer relative">
         <SiReacthookform className="text-pink-500 text-5xl" />
         <span className="absolute bottom-full mb-2 px-2 py-1 bg-gray-800 text-white text-sm rounded opacity-0 group-hover:opacity-100 transition-opacity">
           React Hook Form

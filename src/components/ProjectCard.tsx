@@ -35,7 +35,7 @@ export const ProjectCard = ({
     return (
         <>
             <div
-                className="group flex flex-col md:flex-row justify-between text-primary hover:bg-purple-200/10 p-6 md:p-10 rounded-lg hover:scale-102 transition-all duration-1000 cursor-pointer"
+                className="group flex flex-col md:flex-row justify-between text-primary hover:bg-white/5 p-6 md:p-10 rounded-lg hover:scale-102 transition-all duration-1000 cursor-pointer"
                 onClick={() => setModalOpen(true)}
             >
                 <div className="flex flex-col md:flex-row gap-4 md:gap-6 items-center md:items-start text-center md:text-left w-full">
@@ -53,7 +53,7 @@ export const ProjectCard = ({
                         </span>
                     </div>
                 </div>
-                <FaExternalLinkAlt className="hidden sm:block group-hover:text-purple-400 transition-colors mt-2" />
+                <FaExternalLinkAlt className="hidden sm:block group-hover:text-gray-300 transition-colors mt-2" />
             </div>
 
             {modalOpen &&
@@ -140,7 +140,7 @@ const ProjectModal = ({
                     {technologies?.map((tech) => (
                         <div
                             key={tech}
-                            className="flex items-center gap-2 p-3 border border-white/20 rounded-lg hover:border-purple-400 transition-all cursor-pointer"
+                            className="flex items-center gap-2 p-3 border border-white/20 rounded-lg hover:border-gray-400 transition-all cursor-pointer"
                         >
                             {getIcon(tech)}
                             <span className="text-gray-300">{tech}</span>
@@ -153,7 +153,7 @@ const ProjectModal = ({
                         href={link}
                         target="_blank"
                         rel="noreferrer"
-                        className="inline-flex items-center gap-2 bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg transition-colors font-medium"
+                        className="inline-flex items-center gap-2 bg-neutral-800 hover:bg-neutral-700 border border-white/20 text-white px-6 py-3 rounded-lg transition-colors font-medium"
                     >
                         <FaExternalLinkAlt className="text-sm" />
                         {visitText}
