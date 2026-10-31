@@ -9,7 +9,7 @@ function Stats() {
         </span>
       </div>
       <div className="flex flex-col whitespace-pre-wrap">
-        <span className="text-6xl font-black">+ 2</span>
+        <span className="text-6xl font-black">+ 3</span>
         <span>
           PROJECTS <br />
           <span className="text-secondary">COMPLETED</span>
