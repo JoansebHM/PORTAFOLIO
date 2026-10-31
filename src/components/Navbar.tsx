@@ -69,6 +69,12 @@ function Navbar() {
               </li>
               <li
                 className="hover:text-secondary cursor-pointer transition-colors duration-300"
+                onClick={() => scrollToSection("education")}
+              >
+                {content.navbar.education}
+              </li>
+              <li
+                className="hover:text-secondary cursor-pointer transition-colors duration-300"
                 onClick={() => scrollToSection("skills")}
               >
                 {content.navbar.skills}
@@ -138,6 +144,15 @@ function Navbar() {
                 }}
               >
                 {content.navbar.experience}
+              </li>
+              <li
+                className="hover:text-secondary cursor-pointer transition-colors duration-300 py-2"
+                onClick={() => {
+                  scrollToSection("education");
+                  setIsMobileMenuOpen(false);
+                }}
+              >
+                {content.navbar.education}
               </li>
               <li
                 className="hover:text-secondary cursor-pointer transition-colors duration-300 py-2"

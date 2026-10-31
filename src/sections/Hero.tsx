@@ -4,6 +4,7 @@ import ProfileCard from "../components/ProfileCard";
 import Presentation from "./Presentation";
 import RecentProjects from "./RecentProjects";
 import Experience from "./Experience";
+import Education from "./Education";
 import TechSkills from "./TechSkills";
 import Contact from "./Contact";
 
@@ -51,6 +52,9 @@ function Hero() {
             </ScrollFadeComponent>
             <ScrollFadeComponent>
               <Experience />
+            </ScrollFadeComponent>
+            <ScrollFadeComponent>
+              <Education />
             </ScrollFadeComponent>
             <ScrollFadeComponent>
               <TechSkills />

@@ -2,12 +2,22 @@ import byteHouseGif from "../assets/gifs/bytehouse_gif.gif";
 import kiraGif from "../assets/gifs/KIRA_gif.gif";
 import sirmedGif from "../assets/gifs/SIRMED_gif.gif";
 
+interface EducationItem {
+    id: string;
+    title: string;
+    institution: string;
+    dates: string;
+    description?: string;
+    topics?: { title: string; text: string }[];
+}
+
 export const LANGUAGES = {
     ES: {
         navbar: {
             about: "Sobre mí",
             projects: "Proyectos",
             experience: "Experiencia",
+            education: "Estudios",
             skills: "Habilidades",
             contact: "Contacto",
             downloadCV: "Descargar CV",
@@ -46,6 +56,42 @@ export const LANGUAGES = {
                     dates: "FEB 2024 - DIC 2025"
                 }
             ]
+        },
+        education: {
+            title1: "MI",
+            title2: "FORMACIÓN",
+            inProgress: "EN CURSO",
+            learnTitle: "Qué se aprende",
+            items: [
+                {
+                    id: "pascualbravo",
+                    title: "Ingeniería de Software",
+                    institution: "Institución Universitaria Pascual Bravo · Medellín",
+                    dates: "2021 - 2026",
+                },
+                {
+                    id: "eafit",
+                    title: "Especialización en Desarrollo de Software",
+                    institution: "Universidad EAFIT · Medellín",
+                    dates: "1 AGO 2026 - 2027",
+                    topics: [
+                        { title: "Entender el problema primero", text: "Lo más importante: se forman especialistas que entienden muy bien el problema antes de construir. Solo así se llega siempre a soluciones y propuestas óptimas." },
+                        { title: "Arquitectura de software", text: "Diseñar sistemas que escalen y se mantengan en el tiempo, eligiendo la estructura correcta para cada necesidad." },
+                        { title: "Servicios de nube", text: "Aprovechar la nube para desplegar, escalar y operar aplicaciones de forma segura y eficiente." },
+                        { title: "Gerencia de proyectos", text: "Planear, priorizar y liderar equipos y entregas, alineando el trabajo técnico con los objetivos del negocio." },
+                        { title: "Metodologías ágiles modernas", text: "Desarrollar con prácticas ágiles actuales para entregar valor de forma continua y adaptarse al cambio." },
+                        { title: "Trade-offs reales de las empresas", text: "Entender las decisiones que viven las empresas, donde cada opción técnica implica costos, tiempos y riesgos." },
+                        { title: "Optimización de costos y procesos", text: "Mejorar procesos y reducir costos sin sacrificar la calidad de lo que se entrega." },
+                    ],
+                },
+                {
+                    id: "kratos",
+                    title: "Grupo estudiantil KRATOS",
+                    institution: "Universidad EAFIT",
+                    dates: "ACTUALMENTE",
+                    description: "Hago parte del grupo estudiantil KRATOS, donde actualmente desarrollamos un estudio de proximidad en el barrio Manila para Postobón, empresa colombiana. En campo nos apoyamos en KIRA, nuestro geovisor.",
+                },
+            ] as EducationItem[],
         },
         skills: {
             title1: "HABILIDADES",
@@ -107,6 +153,7 @@ export const LANGUAGES = {
             about: "About",
             projects: "Projects",
             experience: "Experience",
+            education: "Education",
             skills: "Skills",
             contact: "Contact",
             downloadCV: "Download CV",
@@ -145,6 +192,42 @@ export const LANGUAGES = {
                     dates: "FEB 2024 - DEC 2025"
                 }
             ]
+        },
+        education: {
+            title1: "MY",
+            title2: "EDUCATION",
+            inProgress: "IN PROGRESS",
+            learnTitle: "What you learn",
+            items: [
+                {
+                    id: "pascualbravo",
+                    title: "Software Engineering",
+                    institution: "Institución Universitaria Pascual Bravo · Medellín",
+                    dates: "2021 - 2026",
+                },
+                {
+                    id: "eafit",
+                    title: "Specialization in Software Development",
+                    institution: "EAFIT University · Medellín",
+                    dates: "AUG 1, 2026 - 2027",
+                    topics: [
+                        { title: "Understand the problem first", text: "The most important part: it trains specialists who understand the problem deeply before building anything. That is how you always reach optimal solutions and proposals." },
+                        { title: "Software architecture", text: "Designing systems that scale and stay maintainable over time, choosing the right structure for each need." },
+                        { title: "Cloud services", text: "Using the cloud to deploy, scale and operate applications securely and efficiently." },
+                        { title: "Project management", text: "Planning, prioritizing and leading teams and deliveries, aligning technical work with business goals." },
+                        { title: "Modern agile methodologies", text: "Building with current agile practices to deliver value continuously and adapt to change." },
+                        { title: "Real-world business trade-offs", text: "Understanding the decisions companies actually face, where every technical option carries costs, timelines and risks." },
+                        { title: "Cost and process optimization", text: "Improving processes and cutting costs without sacrificing the quality of what gets delivered." },
+                    ],
+                },
+                {
+                    id: "kratos",
+                    title: "KRATOS Student Group",
+                    institution: "EAFIT University",
+                    dates: "CURRENT",
+                    description: "I am part of the KRATOS student group, where we are currently running a proximity study in the Manila neighborhood for Postobón, a Colombian company. In the field we rely on KIRA, our geoviewer.",
+                },
+            ] as EducationItem[],
         },
         skills: {
             title1: "SKILLS AND",
